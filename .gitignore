@@ -1,0 +1,33 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Local development
+.vscode/
+*.local
+
+# OS-specific
+*.swp
+
+# PostgreSQL dump or temp files (if any)
+*.sql~
+*.dump
+
+# Ignore lock files if preferred (optional)
+# package-lock.json
+# yarn.lock
