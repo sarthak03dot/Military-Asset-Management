@@ -1,5 +1,10 @@
 # Military-Asset-Management
-make meaning ful commit for this
+
+## Demo:
+<img width="1920" height="955" alt="Image" src="https://github.com/user-attachments/assets/cd6f86a2-8d33-4b8a-bd3c-7f33bda61f43" />
+<img width="1920" height="955" alt="Image" src="https://github.com/user-attachments/assets/5fe5300f-39a9-4371-b9cd-b969af5ec529" />
+<img width="1920" height="955" alt="Image" src="https://github.com/user-attachments/assets/a0089f14-48de-4cb0-aac4-570971917d25" />
+<img width="1920" height="955" alt="Image" src="https://github.com/user-attachments/assets/a49d570f-ce72-4415-837e-1bdfe14e8f49" />
 
 ## Military Asset Management System (MAMS)
 
