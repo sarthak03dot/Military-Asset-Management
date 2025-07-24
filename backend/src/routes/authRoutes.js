@@ -5,7 +5,7 @@ const { authorize } = require("../middleware/rbacMiddleware");
 
 const router = express.Router();
 
-router.post("/register", protect, authorize(["admin"]), registerUser);
+router.post("/register", registerUser);
 
 router.post("/login", loginUser);
 
