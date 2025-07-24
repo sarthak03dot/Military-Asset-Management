@@ -14,12 +14,13 @@ const userRoutes = require("./routes/userRoutes");
 const app = express();
 
 app.use(express.json());
-app.use(morgon("dev")); 
+app.use(morgon("dev"));
 
 app.use(
   cors({
-    origin: "http://localhost:5173", 
-    credentials: true, 
+    // origin: "http://localhost:5173",
+    origin: "https://military-asset-management-x5au.onrender.com",
+    credentials: true,
   })
 );
 
