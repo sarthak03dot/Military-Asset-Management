@@ -2,6 +2,8 @@ import React, { createContext, useState, useEffect, useContext } from "react";
 import axios from "axios";
 
 const AuthContext = createContext(null);
+// const API = "http://localhost:5000";
+const API = "https://mams-client.onrender.com";
 
 export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -29,13 +31,10 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       setLoading(true);
-      const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
-        {
-          username,
-          password,
-        }
-      );
+      const response = await axios.post(`${API}/api/auth/login`, {
+        username,
+        password,
+      });
 
       const { token, user: userData } = response.data;
       localStorage.setItem("token", token);
