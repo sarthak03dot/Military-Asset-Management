@@ -1,4 +1,9 @@
 # Military-Asset-Management
+## Login Details
+- UserName: sarthak
+- Password: admin
+- Live Visit: [Click Me!](https://military-asset-management-x5au.onrender.com/)
+
 
 ## Demo:
 <img width="1920" height="955" alt="Image" src="https://github.com/user-attachments/assets/cd6f86a2-8d33-4b8a-bd3c-7f33bda61f43" />
